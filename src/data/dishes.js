@@ -39,7 +39,7 @@ export const DISHES = [
 
     },
     {
-        id: 1,
+        id: 2,
         name: 'Chicken Masala',
         image: 'assets/images/chickenmasala.jpg',
         category: 'meal',
