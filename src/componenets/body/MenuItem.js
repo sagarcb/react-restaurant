@@ -17,7 +17,9 @@ const MenuItem = (props) => {
                              style={{opacity: "0.5"}}
                     />
                     <CardImgOverlay>
-                        <CardTitle>{name}</CardTitle>
+                        <CardTitle onClick={props.dishSelect}
+                                   style={{cursor: 'pointer'}}
+                        >{name}</CardTitle>
                     </CardImgOverlay>
                 </CardBody>
             </Card>
